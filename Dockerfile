@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-3.9_glibc-2.29 
+FROM frolvlad/alpine-glibc:alpine-3.9_glibc-2.29 
 
 RUN set -ex \
     && echo "http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
